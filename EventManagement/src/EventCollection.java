@@ -93,6 +93,7 @@ public class EventCollection implements EventInterface
 		ec.insert(e2);
 		ec.insert(e3);
 		ec.delete(e3);
+		ec.list();
 	}
 
 }
